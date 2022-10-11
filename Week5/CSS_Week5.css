@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+div{
+    border: 8px dotted magenta;
+    background-color: aquamarine;
+    margin: auto;
+    width: 40%;
+    height: 90px;
+}
+button{
+    
+    background-color: blue;
+    color: antiquewhite;
+    padding: 10px 24px;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+textarea{
+    border: solid magenta;
+ 
+    width: 40%;
+    height: 90px;
+}
+#comment1{ 
+    font-size: 20px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#comment2{
+    font-size: 20px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#topic1{
+    font-size: 20px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#text1{
+    font-size: 23px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

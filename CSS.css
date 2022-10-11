@@ -1,0 +1,565 @@
+/* font-family: 'Quicksand', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background-color:#2f4f4f;
+    color:#faebd7 ;
+}
+/* หน้าแรก */
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2f4f4f;
+    padding: 22px 16%;
+    border-bottom: 1px solid transparent;
+    transition: all .40 ease;
+}
+header.sticky{
+    padding: 10px 16%;
+    background: #2f4f4f;
+    transition: .3s;
+}
+.logo{
+    color: #daa520;
+    font-weight: 600;
+    font-size: 40pt;
+    text-shadow: 3px 2px 1px #faebd7;
+}
+.barmenu{  
+    display: flex;
+}
+.barmenu a{
+    color: #faebd7;
+    font-size: 18px;
+    font-weight: bold;
+   padding: 10px 25px;
+   margin: 0 2px;
+   border-radius: 0.5rem;
+   transition: all .40s ease;
+}
+.barmenu a:hover{
+    color: #daa520;
+    background: #faebd7;
+    transition: .3s;
+    padding: 10px 25px;
+
+}
+section{
+    padding: 160px 16% 90px;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+}  
+.hometext h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #faebd7;
+}
+.hometext h2 {
+    color: #daa520;
+    font-size: 80px;
+    margin-left: 4%;
+    text-align: center;
+} 
+.hometext h2 span{
+    font-size: 80px;
+    font-weight: 700;
+    color:transparent;
+    -webkit-text-stroke: 1px #daa520;
+    margin-left: 4%;
+   
+}
+#PortMain1_pic{
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   border-radius: 50%;
+   border: 4px ;
+   border-style: solid; 
+    border-color: #daa520;   
+}
+
+.hometext h3 { 
+    color:#faebd7;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+/* หน้าสอง */
+.about{
+    background-color:#2f4f4f;
+    height: 100vh;
+    width: 100%;
+    /* position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: grid; */
+    /* justify-content: space-between;
+    display: flex; */
+    align-items: center;
+    margin: 10rem auto 0 auto;
+   
+    
+}
+
+
+#Aboutme_pic{
+
+        width: 290px;
+        height: 360px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+       border-radius: 10%;
+       border: 4px ;
+       border-style: solid; 
+        border-color: #daa520;   
+    
+}
+/* .about:hover #Aboutme_pic{
+    transition: 1s;
+    transform:translateX(-15px) ;
+} */
+
+.contentaboutme{
+   
+    margin-top: 2%;
+  
+}
+.contentaboutme h1{
+    color: #daa520;
+    font-size: 42px;
+    text-decoration: underline;
+}
+.contentaboutme h2{
+    color: #daa520;
+    font-size: 22px;
+}
+.contentaboutme  h2 span{
+    color: #faebd7;
+    font-size: 22px;
+}
+
+.contentaboutme p{
+    color: #faebd7;
+    font-size: 20px;
+    
+}
+.contentaboutme p span {
+    color: #daa520;
+    font-size: 19px;
+}
+
+.contentaboutme a {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+.contentaboutme:hover a{
+    color: #daa520 ;
+    text-decoration: underline;
+}  
+
+/* หน้า skill กับ Project */
+
+.maincontent{
+    text-align: center;
+}
+.maincontent h1{
+    font-size: 42px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #daa520;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.skilltext h2{
+    text-align: left;
+    font-size: 18px;
+}
+.skilltext h3{
+    text-align: left;
+    font-size: 18px;
+}
+#video{
+    width: 260px;
+    height: 180px;
+}
+/* video #video {
+    display: -webkit-inline-box;
+} */
+
+#button1{
+    margin-top: 3%;
+}
+.box{
+    padding: 45px;
+    background-color: #daa520;
+    border-top: 5px solid transparent;
+    transition: all .40s ease;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.box:hover{
+    transform:translateY(-15px) ;
+}
+.box:hover h2{
+    color: #2f4f4f ;
+    text-decoration: underline;
+} 
+.box:hover h3{
+    color: #2f4f4f ;
+    text-decoration: underline;
+} 
+.box:hover h4{
+    color: #2f4f4f ;
+    text-decoration: underline;
+} 
+.box p{
+    color: #2f4f4f;
+    font-size: 12px;
+    text-align: left;
+}
+.box h2{
+    color: #faebd7;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.box h3{
+    color: #faebd7;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.box h4{
+    color: #faebd7;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Button{
+    justify-content: center;
+   
+}
+button{
+    font-size: 12px;
+    padding: 8px 20px ;
+    background: none;
+    border: #2f4f4f solid 2px;
+    color: #faebd7;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+    cursor: pointer;
+    
+}
+button::after{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background: #faebd7;
+    border: #faebd7 solid 2px;
+    color: #2f4f4f;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: .4s;
+}
+button:hover{
+    color: #2f4f4f;
+}
+button:hover::after{
+    width: 100%;
+}
+#Linesticker_pic{
+    width: 160px;
+    height: 160px;
+    margin-top: 3%;
+    border-radius: 0.5rem;
+}
+#Maya_pic{
+    width: 170px;
+    height: 170px;
+    margin-top: 3%;
+    border-radius: 0.5rem;
+} 
+
+
+
+/* หน้า  activities*/
+.activity{
+    height: 100vh;
+    width: 100%;
+    background-color:#2f4f4f;
+}
+.imglist{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 50px;
+}
+.Foreignerfriend{
+    box-shadow: 0 4px 25px rgba(14.36.49.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.Foreignerfriend img{
+   transition: 1s;
+   cursor: pointer;
+   display: block;
+}
+.Foreignerfriend img:hover{
+    transform: scale(1.1);
+ }
+#Actforeigner1_pic{
+    width: 100%;
+   height: 100%;
+}
+#Actforeigner2_pic{
+    width: 100%;
+   height: 100%;
+}
+#Actforeigner3_pic{
+    width: 100%;
+   height: 100%;
+}
+
+.container h1{
+    font-size: 42px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #daa520;
+}
+.container h2{
+    font-size: 20px;
+    color: #faebd7;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.container p{
+    font-size: 16px;
+    color: #faebd7;
+    text-indent: 30px;
+}
+    /* หน้า  reference*/
+.reference{
+    height: 100vh;
+    width: 100%;
+    background-color:#2f4f4f;
+}
+.mainref{
+    text-align: left;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.headref h1{
+    font-size: 42px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #daa520;
+}
+.ref h2{
+    margin-top: 1%;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.ref h3{
+    margin-top: 2%;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.ref a{
+    font-size: 11px;
+    color: #faebd7;
+}
+.ref a:hover{
+    text-decoration: underline;
+    color: lightskyblue;
+}
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+.top i{
+    color: #daa520;
+    background: transparent;
+    font-size: 52px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+#StickerHello_pic{
+    float: right;
+    width: 250px;
+    height: 200px;
+}
+
+/* ของไฟล์project.html */
+.Workshopclass{
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+#Japanwork1_pic{
+    width: auto;
+    height: 240px;
+    margin-top: 3%;
+    border-radius: 2rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto ;
+   
+}
+#Japanwork2_pic{
+    width: 340px;
+    height: 340px;
+    border-radius: 0.5rem;
+    margin : auto;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+#Japanwork3_pic{
+    width: auto;
+    height: 180px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin : auto;
+    margin-top: 3%;
+    border-radius: 2rem;
+}
+#Japanwork4_pic{
+    width: 400px;
+    height: 340px;
+    margin-top: 3%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin : auto;
+}
+
+
+#Project h1{
+    font-size: 45px;
+    margin-top : 5%;
+    margin-bottom : 5%;
+    color: #daa520;
+}
+#Project:hover h1{
+    text-decoration: underline;
+   color: lightskyblue;
+}
+#Project h2{
+    font-size: 35px;
+    color: #daa520;
+    margin-top: 3%;
+}
+#Project h3{
+    font-size:  24px;
+    color: #daa520;
+    margin-top: 3%;
+}
+#Project h4{
+    font-size:  24px;
+    color: #daa520;
+    margin-top: 3%;
+}
+#Project h5{
+    font-size:  24px;
+    color: #daa520;
+    margin-top: 3%;
+}
+#Project h6{
+    font-size:  24px;
+    color: #daa520;
+    margin-top: 3%;
+}
+
+#Project p{
+    font: 16px;
+    margin-top : 1%;
+}
+/* กำหนดหน้าตาของแต่ละขนาด */
+@media (max-width: 1325px){
+    header{
+        padding: 16px 3%;
+    }
+    header.sticky{
+        padding: 8px 3%;
+    }
+    section{
+        padding: 130px 3% 60px;
+    }
+}
+
+@media (max-width: 970px){
+    section{
+        padding: 70px 3% 60px;
+    }
+    .home{
+        height: 85vh;
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
+   
+}
+@media (max-width: 830px){
+    .barmenu a {
+        font-size: 8.5px;
+        display: flex;
+       padding: 7px 10px;
+       margin: 0 1px;
+
+    }
+    /* .about{
+        
+        
+    } */
+    /* .image{
+        
+        
+          
+    }
+    .contentaboutme{
+       
+        margin-bottom: 30%;
+          
+    } */
+    
+    
+}
+ 
